@@ -1,4 +1,4 @@
-Opinion Scrapper with Scrapy
+Opinion scrapper with Scrapy framwork
 ===================
 
 ## DESCRIPTION ##
@@ -7,7 +7,18 @@ This program reads a list from opinions from http://www.cadc.uscourts.gov/intern
 
 ## USAGE ##
 
- $ scrapy crawl opinions -o results.json
+Scrapy project version:
+
+```
+scrapy crawl opinions -o results.json
+```
+
+
+Basic spider self-contained in one file version:
+
+```
+scrapy runspider basicspider.py -o results.json
+```
 
 
 ## Installation
